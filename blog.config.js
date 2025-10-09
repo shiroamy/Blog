@@ -67,7 +67,7 @@ const BLOG = {
     process.env.NEXT_PUBLIC_GREETING_WORDS ||'🧠 打工仔的厭世生存日記','為金魚腦記錄點筆記、為生存記錄點生活。'
 
   // uuid重定向至 slug
-  UUID_REDIRECT: process.env.UUID_REDIRECT || false
+  UUID_REDIRECT: process.env.UUID_REDIRECT || true
 }
 
 module.exports = BLOG
